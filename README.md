@@ -5,7 +5,7 @@
 <h1 align="center">EFOOD - Seu site de pedidos deliciosos!🍴</h1>
 
 <h1 align="center">
-    <a href="https://efood-blue.vercel.app">🔗 Clique aqui para acesar o  site da EFOOD</a>
+    <a href="https://efood-comidas.vercel.app">🔗 Clique aqui para acesar o  site da EFOOD</a>
 </h1>
 
 <p align="center">🚀 Loja virtual de restaurantes feitas por mim para teste final do curso de Front-end da EBAC.</p>
