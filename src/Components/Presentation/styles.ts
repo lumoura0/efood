@@ -14,6 +14,16 @@ export const ItalianBanner = styled.div<Props>`
 
   background-image: url(${(props) => props.imagem});
   background-size: cover;
+  &::after {
+    content: '';
+    position: absolute;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.56;
+  }
 
   @media (max-width: ${breakpoints.desktop}) {
     padding: 24px;
@@ -35,10 +45,12 @@ export const ItalianBanner = styled.div<Props>`
     font-weight: 100;
     margin-top: 24px;
     font-size: 32px;
+    z-index: 1;
   }
 
   h1 {
     margin-bottom: 32px;
     font-size: 32px;
+    z-index: 1;
   }
 `;

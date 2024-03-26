@@ -101,6 +101,6 @@ export const Tag = styled.span`
   font-weight: 700;
   font-size: 12px;
 
-  color: ${cores.branco};
+  color: #FFEBD9;
   background-color: ${cores.vermelho};
 `;

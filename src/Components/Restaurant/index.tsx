@@ -22,8 +22,8 @@ const Restaurant = ({
   id,
 }: Props) => {
   const retornaInfoRestaurante = (info: string) => {
-    if (info.length > 183) {
-      return info.slice(0, 180) + "...";
+    if (info.length > 240) {
+      return info.slice(0, 240) + "...";
     }
 
     return info;
